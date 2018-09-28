@@ -1,0 +1,1767 @@
+<!DOCTYPE html>
+<!-- saved from url=(0149)https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE -->
+<html lang="en" class=""><!-- <![endif] --><head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# product: http://ogp.me/ns/product#"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet</title>
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<script type="text/javascript" src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/eb4b94bae5"></script><script src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/nr-1071.min.js.download"></script><script type="text/javascript" async="" src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/ecommerce.js.download"></script><script type="text/javascript" async="" src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/f.txt"></script><script src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/bat.js.download" async=""></script><script async="" src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/analytics.js.download"></script><script src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/283275665520312" async=""></script><script async="" src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/fbevents.js.download"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"eb4b94bae5","applicationID":"86396103","transactionName":"d1ldTEYLVF1cQx1JEFtSRltAFxdCUV5F","queueTime":0,"applicationTime":30,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQEAWFZbChAIUlJbAQAHVQ=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="cVlmGBY49ZYgu3TddnLsiJ930t3GBzLI__v8u-zke38" name="google-site-verification">
+<meta content="F5E796E02AD4D6001AD07FE0B5A6B8DB" name="msvalidate.01">
+<link href="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/css" rel="stylesheet" type="text/css">
+<link href="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/font-awesome.min.css" rel="stylesheet" type="text/css">
+<meta content="58d0b9138961c933c5bdd11f0e080ceb" name="p:domain_verify">
+<meta content="og:product" property="og:type">
+<meta content="EUR" property="product:price:currency">
+<meta content="79.0" property="product:price:amount">
+<meta content="https://www.ledgerwallet.com/images/products/lns/ledger-nano-s-large.png" property="og:image">
+<meta content="https://www.ledgerwallet.com/products/ledger-nano-s" property="og:url">
+<meta content="Ledger Nano S - Cryptocurrency hardware wallet" property="og:title">
+<meta content="When you own cryptocurrencies, you need to protect your confidential data and the access to your funds. With Ledger Nano S, secrets like private keys are never exposed: sensitive operations are isolated inside your hardware wallet within a state-of-the-art Secure Element, locked by a PIN code. Transactions can’t get tampered with, they are physically verified on the embedded screen with a simple press of a button." property="og:description">
+<meta content="When you own cryptocurrencies, you need to protect your confidential data and the access to your funds. With Ledger Nano S, secrets like private keys are never exposed: sensitive operations are isolated inside your hardware wallet within a state-of-the-art Secure Element, locked by a PIN code. Transactions can’t get tampered with, they are physically verified on the embedded screen with a simple press of a button." name="description">
+
+<link href="https://chrome.google.com/webstore/detail/kkdpmhnladdopljabkgpacgpliggeeaf" rel="chrome-webstore-item">
+<link href="https://chrome.google.com/webstore/detail/hmlhkialjkaldndjnlcdfdphcgeadkkm" rel="chrome-webstore-item">
+<link href="https://chrome.google.com/webstore/detail/beimhnaefocolcplfimocfiaiefpkgbf" rel="chrome-webstore-item">
+<link rel="shortcut icon" type="image/x-icon" href="https://www.ledgerwallet.com/favicon.ico">
+<link rel="stylesheet" media="all" href="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/application-c4906736b98d0f39b99146bf8116a5b2.css">
+<script src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/application-68fd30ed2a0bc07f85e091bfb5c74d69.js.download"></script><style type="text/css"></style><style type="text/css">.js-tab-hidden{position:absolute !important;left:-9999px !important;top:-9999px !important;display:block !important}</style>
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="cM6JYAgkhJXAO/fZwECOnOeDPhPIxT9Yfhb0zbOMMgLu/iu0jiQQcRb5SYADBjJ0Fn89nv0f3mSlWFePcLlpBQ==">
+<link rel="stylesheet" type="text/css" href="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/cookieconsent.min.css">
+<script src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/cookieconsent.min.js.download"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#1d2028",
+      "text": "#ffffff"
+    },
+    "button": {
+      "background": "#ffffff",
+      "text": "#000000"
+    }
+  },
+  "theme": "classic",
+  "position": "bottom-left",
+  "content": {
+    "message": "This website uses cookies for functionality, analytics and advertising purposes as described in our Privacy and Cookie Policy. If you agree to our use of cookies, please continue to use our site.",
+    "dismiss": "I agree",
+    "link": "View policy",
+    "href": "/privacy-policy"
+  },
+  "window": "<div style=\"font-family: Open Sans; font-weight: 400; font-size: 13px\" role=\"dialog\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" class=\"cc-window container {{classes}}\">{{children}}</div>"
+})});
+</script>
+
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window,document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  
+  fbq('init', '283275665520312'); 
+  fbq('track', 'PageView');
+</script>
+<noscript>
+<img height='1' src='https://www.facebook.com/tr?id=283275665520312&amp;ev=PageView&amp;noscript=1' width='1'>
+</noscript>
+<script async="async" src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  
+  gtag('config', 'AW-961495034');
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-55894473-2', 'auto');
+  ga('send', 'pageview');
+  ga('require', 'ecommerce');
+</script>
+<style type="text/css">.fancybox-margin{margin-right:0px;}</style><style></style><script src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/f(1).txt"></script><style></style></head>
+<body data-action="show" data-controller="products"><div style="font-family: &quot;Open Sans&quot;; font-weight: 400; font-size: 13px;" role="dialog" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window container cc-floating cc-type-info cc-theme-classic cc-bottom cc-left cc-color-override-2138806697 "><span id="cookieconsent:desc" class="cc-message">This website uses cookies for functionality, analytics and advertising purposes as described in our Privacy and Cookie Policy. If you agree to our use of cookies, please continue to use our site. <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.ledgerwallet.com/privacy-policy" target="_blank">View policy</a></span><div class="cc-compliance"><a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss">I agree</a></div></div>
+<div class="modal fade" id="event_popup" role="dialog" tabindex="-1">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-body text-center">
+<a href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#"><picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/rocket_nanos_shipping.png" media="(max-width: 767px)">
+  <source srcset="/images/rocket_nanos_shipping.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/rocket_nanos_shipping.png">
+</picture>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="wrapper">
+<header id="header">
+<div class="header-holder">
+<div class="container text-uppercase">
+<nav class="navbar navbar-default">
+<div class="container-fluid">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+<button aria-expanded="false" class="navbar-toggle collapsed" data-target="#collapse-1" data-toggle="collapse" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<!-- logo of the page -->
+<div class="logo">
+<a href="https://www.ledgerwallet.com/">
+<img alt="Ledger Wallet" height="32" src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/ledger_logo_header@2x.png" width="125">
+</a>
+</div>
+</div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="collapse-1">
+<div id="main-nav">
+<ul class="nav navbar-nav">
+<li class="active"><a href="https://www.ledgerwallet.com/products">Products</a></li>
+<li><a href="https://www.ledgerwallet.com/cryptocurrencies">Cryptocurrencies</a></li>
+<li><a href="https://www.ledgerwallet.com/videos">Videos</a></li>
+<li><a href="https://www.ledgerwallet.com/apps">Apps</a></li>
+<li><a href="http://support.ledgerwallet.com/">Customer Service</a></li>
+</ul>
+</div>
+<div id="sub-nav">
+<strong class="slogan-wrap">Ledger Nano S</strong>
+<ul class="nav navbar-nav">
+<li class="">
+<a href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#presentation">Presentation</a>
+</li>
+<li class="">
+<a href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#use-cases">Quick tour</a>
+</li>
+<li class="">
+<a href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#features">Features</a>
+</li>
+<li class="active">
+<a href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#shipped-items">In the box</a>
+</li>
+<li>
+<a href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#security">Security</a>
+</li>
+<li>
+<a href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#built-in-apps">Companion apps</a>
+</li>
+<li>
+<a href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#integrations">Integrations</a>
+</li>
+<li>
+<a href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#specifications">Specifications</a>
+</li>
+</ul>
+</div>
+
+</div>
+<!-- /.navbar-collapse -->
+</div>
+<!-- /.container-fluid -->
+</nav>
+<!-- buy button of the page -->
+<a class="btn btn-default btn-buy text-uppercase" href="https://www.ledgerwallet.com/cart">
+<i class="fa fa-shopping-cart"></i>
+Cart (<span class="cart-items-count">0</span>)
+</a>
+</div>
+<!-- / Banners for swiss visitors -->
+</div>
+</header>
+
+
+<main id="main" role="main">
+<div class="ledger-nano ledger-nano-s">
+<section class="presentation" id="presentation">
+<div class="container">
+<div class="row">
+<div class="col-sm-7">
+<!-- contain the main content of the page -->
+<div id="content">
+<div class="title-wrap">
+<h1>
+Ledger <strong>Nano S</strong>
+</h1>
+<h2>Cryptocurrency hardware wallet</h2>
+<p>Ledger Nano S is a Bitcoin, Ethereum and Altcoins hardware wallet, based on robust safety features for storing cryptographic assets and securing digital payments. It connects to any computer (USB) and embeds a secure OLED display to double-check and confirm each transaction with a single tap on its side buttons.</p>
+</div>
+<!-- slideshow of the page -->
+<div class="slideshow gallery-js-ready autorotation-disabled">
+<div class="slideset" style="height: 325px;">
+<div class="slide active" style="display: block; visibility: visible;">
+<a data-target="#myModal-1" data-toggle="modal" href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#">
+<img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/ledger-nano-s-fold-medium.png" alt="Ledger nano s fold medium">
+</a>
+</div>
+<div class="slide" style="display: block; opacity: 0; visibility: hidden;">
+<a data-target="#myModal-1" data-toggle="modal" href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#">
+<img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/ledger-nano-s-cable-medium.png" alt="Ledger nano s cable medium">
+</a>
+</div>
+<div class="slide" style="display: block; opacity: 0; visibility: hidden;">
+<a data-target="#myModal-1" data-toggle="modal" href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#">
+<img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/ledger-nano-s-side-medium.png" alt="Ledger nano s side medium">
+</a>
+</div>
+<div class="slide" style="display: block; opacity: 0; visibility: hidden;">
+<a data-target="#myModal-1" data-toggle="modal" href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#">
+<img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/ledger-nano-s-pack-medium.png" alt="Ledger nano s pack medium">
+</a>
+</div>
+<div class="slide" style="display: block; opacity: 0; visibility: hidden;">
+<a data-target="#myModal-1" data-toggle="modal" href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#">
+<img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/ledger-nano-s-plug-medium.png" alt="Ledger nano s plug medium">
+</a>
+</div>
+</div>
+<ul class="pagination">
+<li class="active">
+<a href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#">
+<img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/ledger-nano-s-fold-thumb.png" alt="Ledger nano s fold thumb">
+</a>
+</li>
+<li>
+<a href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#">
+<img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/ledger-nano-s-cable-thumb.png" alt="Ledger nano s cable thumb">
+</a>
+</li>
+<li>
+<a href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#">
+<img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/ledger-nano-s-side-thumb.png" alt="Ledger nano s side thumb">
+</a>
+</li>
+<li>
+<a href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#">
+<img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/ledger-nano-s-pack-thumb.png" alt="Ledger nano s pack thumb">
+</a>
+</li>
+<li>
+<a href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#">
+<img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/ledger-nano-s-plug-thumb.png" alt="Ledger nano s plug thumb">
+</a>
+</li>
+</ul>
+</div>
+<!-- lightbox of the page -->
+<div class="modal fade" id="myModal-1" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button aria-label="Close" class="close" data-dismiss="modal" type="button">CLOSE</button>
+<strong class="logo-text">
+<span>Ledger</span>
+Nano S
+</strong>
+</div>
+<div class="modal-body">
+<div class="carousel gallery-js-ready autorotation-disabled">
+<div class="mask">
+<div class="slideset" style="width: 500px; margin-left: 0px;">
+<div class="slide active" style="width: 100px;">
+<span class="ico-wrap">
+<img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/ledger-nano-s-fold-large.png" alt="Ledger nano s fold large">
+</span>
+</div>
+<div class="slide" style="width: 100px;">
+<span class="ico-wrap">
+<img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/ledger-nano-s-cable-large.png" alt="Ledger nano s cable large">
+</span>
+</div>
+<div class="slide" style="width: 100px;">
+<span class="ico-wrap">
+<img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/ledger-nano-s-side-large.png" alt="Ledger nano s side large">
+</span>
+</div>
+<div class="slide" style="width: 100px;">
+<span class="ico-wrap">
+<img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/ledger-nano-s-pack-large.png" alt="Ledger nano s pack large">
+</span>
+</div>
+<div class="slide" style="width: 100px;">
+<span class="ico-wrap">
+<img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/ledger-nano-s-plug-large.png" alt="Ledger nano s plug large">
+</span>
+</div>
+</div>
+</div>
+<div class="btn-wrap text-center">
+<a class="btn-prev disabled" href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#">
+<i class="fa fa-angle-left"></i>
+</a>
+<a class="btn-next" href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#">
+<i class="fa fa-angle-right"></i>
+</a>
+<span class="text-wrap">
+<span class="current-num">1</span>
+of
+<span class="total-num">5</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- contain sidebar of the page -->
+<div class="col-sm-5">
+<aside id="sidebar">
+<input id="product-id" name="product_id" type="hidden" value="12">
+<div data-product-code="lns" id="product-sku-infos">
+<meta data-id="71" data-price="79.0" name="lns-solo-en">
+</div>
+<section class="price-holder">
+<div class="price-wrap text-right">
+<strong class="price">79.00&nbsp;€</strong>
+<span class="text-wrap text-uppercase">Excl. tax</span>
+<span class="product-badge grey">free shipping</span>
+</div>
+<button class="btn btn-default text-uppercase" id="add-to-cart" role="button">
+<i class="fa fa-shopping-cart"></i>
+Add to cart
+</button>
+</section>
+<section class="block-holder text-center">
+<ul class="qty">
+<input id="language" name="language" type="hidden" value="en">
+<li>
+<h3>Quantity</h3>
+<select name="quantity" id="quantity" class="jcf-hidden"><option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="20">20</option>
+<option value="30">30</option>
+<option value="40">40</option>
+<option value="50">50</option>
+<option value="60">60</option>
+<option value="70">70</option>
+<option value="80">80</option>
+<option value="90">90</option>
+<option value="100">100</option></select><span class="jcf-select jcf-unselectable"><span class="jcf-select-text"><span class="">1</span></span><span class="jcf-select-opener"></span></span>
+</li>
+</ul>
+</section>
+<!-- select radio button of the page -->
+<input id="edition" name="edition" type="hidden" value="solo">
+<!-- warning note -->
+<a class="nolink" href="https://www.ledgerwallet.com/start/ledger-nano-s">
+<section class="block-holder text-center warning-note">
+<i class="fa fa-rocket"></i>
+<span>Get started in few minutes: visit our start page to configure your device and to know how to use it.</span>
+</section>
+</a>
+<section class="text-center">
+<a href="https://www.ledger.fr/2016/06/20/ledger-nano-s-secure-multi-currency-hardware-wallet/" target="_blank">
+In-depth look at the Ledger Nano S
+&nbsp;
+<i class="fa fa-arrow-circle-o-right"></i>
+</a>
+</section>
+<section class="text-center">
+<a href="https://www.ledger.fr/2016/07/27/ledger-nano-s-interface-first-look/" target="_blank">
+Discover Ledger Nano S interface
+&nbsp;
+<i class="fa fa-arrow-circle-o-right"></i>
+</a>
+</section>
+<section class="text-center">
+<a href="https://www.ledger.fr/2018/03/06/new-firmware-update-1-4-1-available-for-the-nano-s/" target="_blank">
+New features in firmware 1.4
+&nbsp;
+<i class="fa fa-arrow-circle-o-right"></i>
+</a>
+</section>
+<section class="text-center">
+<a href="https://www.ledger.fr/2017/02/28/a-short-guide-to-nano-s-firmware-1-3-features/" target="_blank">
+New features in firmware 1.3
+&nbsp;
+<i class="fa fa-arrow-circle-o-right"></i>
+</a>
+</section>
+
+<!-- resellers note of the page -->
+<div class="resellers-wrap">
+<div class="resellers text-center">
+<h3 class="text-uppercase">Looking for another model?</h3>
+<a class="link" href="https://www.ledgerwallet.com/products/compare">
+Compare Ledger Wallet models
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+</div>
+<!-- lightbox of the page -->
+<div class="modal fade" id="item-added-to-cart" role="dialog" tabindex="-1">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-body text-center">
+<h3 class="text-uppercase">Cart</h3>
+<p>The item has been successfully added to your cart.</p>
+<div class="btn-holder">
+<a class="btn btn-primary" data-dismiss="modal">
+<i class="fa fa-arrow-right"></i>
+<strong>Continue</strong>
+<span>Shopping</span>
+</a>
+<a class="btn btn-primary" href="https://www.ledgerwallet.com/cart">
+<i class="fa fa-shopping-cart"></i>
+<strong>Checkout</strong>
+<span>
+<span class="cart-items-count">0</span> item
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- lightbox of the page -->
+<div class="modal fade" id="error-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-body text-center">
+<h3 class="text-uppercase">Cart</h3>
+<p>
+Something went wrong
+<span class="error-message"></span>
+</p>
+<div class="btn-holder">
+<a class="btn btn-primary" data-dismiss="modal">
+<i class="fa fa-arrow-right"></i>
+<strong>Continue</strong>
+<span>Shopping</span>
+</a>
+<a class="btn btn-primary" href="https://www.ledgerwallet.com/cart">
+<i class="fa fa-shopping-cart"></i>
+<strong>Checkout</strong>
+<span><span class="cart-items-count">0</span> item</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</aside>
+
+</div>
+</div>
+<div class="row">
+<div class="product-block" style="margin-top: -150px">
+<div class="container">
+<div class="product-list js-same-height">
+<div class="row">
+<div class="col-xs-12 col-sm-6">
+<div class="pack-item">
+<div class="header">
+<img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/package-lnsx2-medium.png">
+<div class="texts">
+<div class="title">
+Ledger <strong>Nano S</strong>
+<i>
+x2 — Double Pack
+</i>
+</div>
+<div class="subtitle">
+2 Ledger Nano S + 1 OTG kit FREE
+</div>
+</div>
+</div>
+<div class="description js-height same-height-left same-height-right" style="height: 161px;">
+You can configure both Nano S with the same seed, giving you a complete peace of mind with double seed verification and access to an immediate backup. The two Nano S are delivered in separate boxes. In bonus, a free OTG kit to connect to your USB-C port or Android device.
+</div>
+<div class="footer">
+<div class="price text-uppercase">
+<span class="translation_missing" title="translation missing: en-US.products.pack_lnsx2.package_price">Package Price</span>
+<strong>
+158.00&nbsp;€
+</strong>
+</div>
+<a class="btn btn-default text-uppercase buy-button" data-full-sku="pck-lnsx2" data-id="177" id="add-pack-to-cart">
+Add to cart
+</a>
+</div>
+</div>
+
+</div>
+<div class="col-xs-12 col-sm-6">
+<!-- = render 'pack_lnsx6' -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- content block of the page -->
+<div class="content-wrap">
+<h3 class="text-uppercase">Latest generation hardware</h3>
+<p>When you own cryptocurrencies, you need to protect your confidential data and the access to your funds. With Ledger Nano S, secrets like private keys are never exposed: sensitive operations are isolated inside your hardware wallet within a state-of-the-art Secure Element, locked by a PIN code. Transactions can’t get tampered with, they are physically verified on the embedded screen with a simple press of a button.</p>
+</div>
+<!-- content block of the page -->
+<div class="content-wrap">
+<h3 class="text-uppercase">Pay and authenticate</h3>
+<p>Ledger Nano S includes Bitcoin, Litecoin, Ethereum and Ethereum Classic companion apps, and other blockchain-based cryptocurrencies. You can send and receive payments, check your accounts and manage multiple addresses for each currency from the same device. Nano S also supports the FIDO® Universal Second Factor standard that simplifies the authentication process on compatible online services such as GMail, Dashlane, Dropbox or GitHub.</p>
+</div>
+</div>
+</section>
+<!-- videos section of the page -->
+<section class="section-wrap videos" id="use-cases">
+<div class="container">
+<div class="title-wrap">
+<h2>Quick tour</h2>
+</div>
+<div class="row">
+<div class="col-sm-8">
+<div class="tab-content">
+<div id="tab1" class="" style="display: block;">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/products/lns/video/welcome.png" media="(max-width: 767px)">
+  <source srcset="/images/products/lns/video/welcome.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/welcome.png">
+</picture>
+
+</div>
+<div id="tab2" class="js-tab-hidden" style="display: none; width: 600px;">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/products/lns/video/transaction.png" media="(max-width: 767px)">
+  <source srcset="/images/products/lns/video/transaction.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/transaction.png">
+</picture>
+
+</div>
+<div id="tab3" class="js-tab-hidden" style="display: none; width: 600px;">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/products/lns/video/pin.png" media="(max-width: 767px)">
+  <source srcset="/images/products/lns/video/pin.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/pin.png">
+</picture>
+
+</div>
+<div id="tab4" class="js-tab-hidden" style="display: none; width: 600px;">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/products/lns/video/auth.png" media="(max-width: 767px)">
+  <source srcset="/images/products/lns/video/auth.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/auth.png">
+</picture>
+
+</div>
+<div id="tab5" class="js-tab-hidden" style="display: none; width: 600px;">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/products/lns/video/write.png" media="(max-width: 767px)">
+  <source srcset="/images/products/lns/video/write.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/write.png">
+</picture>
+
+</div>
+<div id="tab6" class="js-tab-hidden" style="display: none; width: 600px;">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/products/lns/video/word.png" media="(max-width: 767px)">
+  <source srcset="/images/products/lns/video/word.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/word.png">
+</picture>
+
+</div>
+<div id="tab7" class="js-tab-hidden" style="display: none; width: 600px;">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/products/lns/video/brightness.png" media="(max-width: 767px)">
+  <source srcset="/images/products/lns/video/brightness.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/brightness.png">
+</picture>
+
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="jcf-scrollable-wrapper" style="position: relative; width: 320px; height: 335px;"><ul class="tabset jcf-scrollable" style="touch-action: pan-x; overflow: hidden; width: 289px; height: 335px;">
+<li class="active">
+<a href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#tab1">
+<div class="img-wrap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/products/lns/video/welcome.png" media="(max-width: 767px)">
+  <source srcset="/images/products/lns/video/welcome.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/welcome.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">FIRST STEPS</h3>
+<p>Connect your Nano S on a USB port</p>
+</div>
+</a>
+</li>
+<li>
+<a href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#tab2">
+<div class="img-wrap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/products/lns/video/transaction.png" media="(max-width: 767px)">
+  <source srcset="/images/products/lns/video/transaction.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/transaction.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">TRANSACTIONS</h3>
+<p>Check and confirm with buttons</p>
+</div>
+</a>
+</li>
+<li>
+<a href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#tab3">
+<div class="img-wrap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/products/lns/video/pin.png" media="(max-width: 767px)">
+  <source srcset="/images/products/lns/video/pin.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/pin.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">PIN CODE</h3>
+<p>Protect your accounts and apps</p>
+</div>
+</a>
+</li>
+<li>
+<a href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#tab4">
+<div class="img-wrap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/products/lns/video/auth.png" media="(max-width: 767px)">
+  <source srcset="/images/products/lns/video/auth.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/auth.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">FIDO AUTHENTICATION</h3>
+<p>Stronger authentication for online services</p>
+</div>
+</a>
+</li>
+<li>
+<a href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#tab5">
+<div class="img-wrap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/products/lns/video/write.png" media="(max-width: 767px)">
+  <source srcset="/images/products/lns/video/write.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/write.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">CONFIGURATION</h3>
+<p>Create a new multi-account wallet</p>
+</div>
+</a>
+</li>
+<li>
+<a href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#tab6">
+<div class="img-wrap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/products/lns/video/word.png" media="(max-width: 767px)">
+  <source srcset="/images/products/lns/video/word.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/word.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">RESTORATION</h3>
+<p>Import any compatible backup</p>
+</div>
+</a>
+</li>
+<li>
+<a href="https://www.ledgerwallet.com/products/ledger-nano-s?gclid=CjwKCAjwt5DXBRAtEiwAa3vyEnbFRYk-gu24GUhgb6PpN4CYKJV6HRxULNgcTihU3X-mybtjq2lrWhoCclkQAvD_BwE#tab7">
+<div class="img-wrap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/products/lns/video/brightness.png" media="(max-width: 767px)">
+  <source srcset="/images/products/lns/video/brightness.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/brightness.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">SETTINGS</h3>
+<p>Personalize your Ledger Nano S</p>
+</div>
+</a>
+</li>
+</ul><div class="jcf-scrollbar jcf-scrollbar-vertical" style="touch-action: pan-x; position: absolute; height: 335px;"><div class="jcf-scrollbar-dec jcf-inactive"></div><div class="jcf-scrollbar-slider" style="position: relative; height: 335px;"><div class="jcf-scrollbar-handle" style="touch-action: none; position: absolute; top: 0px; height: 162px;"></div></div><div class="jcf-scrollbar-inc"></div></div></div>
+</div>
+</div>
+</div>
+</section>
+<!-- features section of the page -->
+<section class="section-wrap block-features js-same-height" id="features">
+<div class="container">
+<div class="title-wrap">
+<h2>Features</h2>
+</div>
+<div class="row">
+<div class="col-sm-5">
+<ul class="item-list js-height same-height-left" style="height: 553px;">
+<li>
+<div class="ico-wrap">
+<i class="fa fa-money"></i>
+</div>
+<div class="description">
+<h3 class="text-uppercase">MULTI-CURRENCY</h3>
+<p>Ledger Nano S supports Bitcoin, Litecoin, Ethereum and altcoins: hold different assets in the same hardware wallet.</p>
+</div>
+</li>
+<li>
+<div class="ico-wrap">
+<i class="fa fa-desktop"></i>
+</div>
+<div class="description">
+<h3 class="text-uppercase">BUILT-IN DISPLAY</h3>
+<p>Check and confirm transactions on the display and confirm with using the physical buttons (anti-malware second factor).</p>
+</div>
+</li>
+<li>
+<div class="ico-wrap">
+<i class="fa fa-lock"></i>
+</div>
+<div class="description">
+<h3 class="text-uppercase">SECURITY</h3>
+<p>Your confidential data is never exposed: it is secured inside a strongly isolated environment locked by a PIN code.</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="col-sm-2 text-center">
+<div class="img-wrap js-height" style="height: 553px;">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/products/lns/ledger-nano-s-thread.png" media="(max-width: 767px)">
+  <source srcset="/images/products/lns/ledger-nano-s-thread.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/ledger-nano-s-thread.png">
+</picture>
+
+</div>
+</div>
+<div class="col-sm-5 text-right">
+<ul class="item-list item-wrap js-height same-height-right" style="height: 553px;">
+<li>
+<div class="ico-wrap">
+<i class="fa fa-th"></i>
+</div>
+<div class="description">
+<h3 class="text-uppercase">MULTI-APPS</h3>
+<p>Use companion apps such as cryptocurrencies wallets, and also FIDO® U2F, GPG, SSH or build your own applications.</p>
+</div>
+</li>
+<li>
+<div class="ico-wrap">
+<i class="fa fa-th"></i>
+</div>
+<div class="description">
+<h3 class="text-uppercase">FIDO® CERTIFIED U2F</h3>
+<p>Ledger Nano S supports the FIDO® Universal Second Factor authentication standard on Google, Dropbox, GitHub or Dashlane.</p>
+</div>
+</li>
+<li>
+<div class="ico-wrap">
+<i class="fa fa-refresh"></i>
+</div>
+<div class="description">
+<h3 class="text-uppercase">BACKUP &amp; RESTORATION</h3>
+<p>Your accounts are backed up on a recovery sheet. Easy restoration on any Ledger device or compatible wallets (BIP39/BIP44).</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- shipped items of the page -->
+<section class="section-wrap shipped-items active" id="shipped-items">
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<div class="title-wrap">
+<h2>In the box</h2>
+</div>
+</div>
+</div>
+<div class="row">
+<ul class="items-list">
+<li>
+<div class="img-holder">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/products/lns/ledger-nano-s-icon.png" media="(max-width: 767px)">
+  <source srcset="/images/products/lns/ledger-nano-s-icon.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/ledger-nano-s-icon.png">
+</picture>
+
+</div>
+<h3 class="text-uppercase">Ledger Nano S</h3>
+</li>
+<li>
+<div class="img-holder">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/products/lns/usb-cables-icon.png" media="(max-width: 767px)">
+  <source srcset="/images/products/lns/usb-cables-icon.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/usb-cables-icon.png">
+</picture>
+
+</div>
+<h3 class="text-uppercase">USB cable</h3>
+</li>
+<li>
+<div class="img-holder">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/icon-instructions-sheet.png" media="(max-width: 767px)">
+  <source srcset="/images/icon-instructions-sheet.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/icon-instructions-sheet.png">
+</picture>
+
+</div>
+<h3 class="text-uppercase">Instructions</h3>
+</li>
+<li>
+<div class="img-holder">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/icon-recovery-sheet.png" media="(max-width: 767px)">
+  <source srcset="/images/icon-recovery-sheet.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/icon-recovery-sheet.png">
+</picture>
+
+</div>
+<h3 class="text-uppercase">Recovery sheet</h3>
+</li>
+<li>
+<div class="img-holder">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/icon-accessories.png" media="(max-width: 767px)">
+  <source srcset="/images/icon-accessories.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/icon-accessories.png">
+</picture>
+
+</div>
+<h3 class="text-uppercase">Accessories</h3>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- security section of the page -->
+<section class="section-wrap security" id="security">
+<div class="container">
+<div class="title-wrap">
+<h2>Security</h2>
+</div>
+<div class="row">
+<div class="col-sm-6">
+<ul class="info-list">
+<li>
+<div class="ico-wrap text-center">
+<span class="icon">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/icon-element-thread.png" media="(max-width: 767px)">
+  <source srcset="/images/icon-element-thread.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/icon-element-thread.png">
+</picture>
+
+</span>
+</div>
+<div class="description">
+<h3 class="text-uppercase">Secure Element</h3>
+<p>Ledger Nano S is based on a dual chip architecture (ST31/STM32, Certification level: CC EAL5+). The firmware integrity is guaranteed by cryptographic attestation.</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="col-sm-6">
+<ul class="info-list">
+<li>
+<div class="ico-wrap text-center">
+<span class="icon">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/icon-pin-thread.png" media="(max-width: 767px)">
+  <source srcset="/images/icon-pin-thread.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/icon-pin-thread.png">
+</picture>
+
+</span>
+</div>
+<div class="description">
+<h3 class="text-uppercase">PIN code</h3>
+<p>Ledger Nano S ensures only you can access your accounts by requiring a 4 digit PIN code each time it is plugged to your computer.</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-6">
+<ul class="info-list">
+<li>
+<div class="ico-wrap text-center">
+<span class="icon">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/icon-bug-thread.png" media="(max-width: 767px)">
+  <source srcset="/images/icon-bug-thread.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/icon-bug-thread.png">
+</picture>
+
+</span>
+</div>
+<div class="description">
+<h3 class="text-uppercase">Malware proof</h3>
+<p>Initialization or restoration of your configuration is fully done on the secure environment of the Ledger Nano S. Your cryptographic secrets are never exposed to the outside world.</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="col-sm-6">
+<ul class="info-list">
+<li>
+<div class="ico-wrap text-center">
+<span class="icon">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/icon-key-thread.png" media="(max-width: 767px)">
+  <source srcset="/images/icon-key-thread.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/icon-key-thread.png">
+</picture>
+
+</span>
+</div>
+<div class="description">
+<h3 class="text-uppercase">Privacy</h3>
+<p>Your private keys are never held or known by Ledger or a third party: they are hard locked in the Secure Element. With Ledger Nano S, your wallet remains decentralized, you are your own bank.</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- compatibility section of the page -->
+<section class="section-wrap compatibility colorful" id="built-in-apps">
+<div class="container">
+<div class="row">
+<div class="title-wrap">
+<div class="col-sm-6">
+<h2>Companion apps</h2>
+</div>
+<div class="col-sm-6 text-right">
+<div class="text-holder">
+<a class="btn btn-default btn-info-box default" href="https://www.ledgerwallet.com/apps/manager">
+<div class="image">
+<div class="fa fa-th-large"></div>
+</div>
+<div class="titles">
+Browse all apps
+<div class="sub">Get Ledger Manager</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row explaination">
+The Ledger Nano S runs dedicated companion applications. To benefit from the latest apps and security features, the Ledger Manager enables firmware updates and browsing through the apps catalogue.
+</div>
+</div>
+<div class="row text-center">
+<ul></ul>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_bitcoin.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_bitcoin.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_bitcoin.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">Bitcoin</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_ethereum.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_ethereum.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_ethereum.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">Ethereum</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_litecoin.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_litecoin.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_litecoin.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">Litecoin</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_fido.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_fido.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_fido.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">FIDO U2F</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_doge.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_doge.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_doge.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">Dogecoin</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_zcash.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_zcash.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_zcash.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">Zcash</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_dash.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_dash.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_dash.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">Dash</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_stratis.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_stratis.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_stratis.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">Stratis</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_ripple.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_ripple.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_ripple.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">Ripple</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_hello.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_hello.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_hello.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">Hello</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_bitcoin_cash.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_bitcoin_cash.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_bitcoin_cash.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">Bitcoin Cash</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_komodo.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_komodo.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_komodo.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">Komodo</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_ethereum_classic.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_ethereum_classic.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_ethereum_classic.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">Ethereum Classic</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_posw.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_posw.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_posw.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">POSW</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_ark.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_ark.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_ark.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">ARK</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_expanse.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_expanse.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_expanse.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">Expanse</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_ubiq.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_ubiq.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_ubiq.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">Ubiq</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_pivx.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_pivx.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_pivx.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">PIVX</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_vertcoin.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_vertcoin.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_vertcoin.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">Vertcoin</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_viacoin.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_viacoin.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_viacoin.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">Viacoin</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_neo.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_neo.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_neo.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">Neo</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_stealthcoin.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_stealthcoin.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_stealthcoin.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">Stealthcoin</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_bitcoin_gold.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_bitcoin_gold.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_bitcoin_gold.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">Bitcoin Gold</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_stellar.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_stellar.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_stellar.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">Stellar</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_hcash.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_hcash.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_hcash.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">Hcash</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_digibyte.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_digibyte.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_digibyte.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">Digibyte</h3>
+</div>
+</li>
+<li>
+<div class="ico-wrap fullbitmap">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/apps/embedded_app_qtum.png" media="(max-width: 767px)">
+  <source srcset="/images/apps/embedded_app_qtum.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/embedded_app_qtum.png">
+</picture>
+
+</div>
+<div class="description">
+<h3 class="text-uppercase">Qtum</h3>
+</div>
+</li>
+
+</div>
+</div>
+</section>
+<!-- integrations section of the page -->
+<section class="section-wrap integrations" id="integrations">
+<div class="container">
+<div class="title-wrap">
+<h2>Integrations</h2>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<div class="content">
+<p>Ledger Nano S operates with its own cryptocurrencies wallet interfaces: Ledger Apps (free Google Chrome applications). You can also use other compatible software wallets from the following list.</p>
+</div>
+</div>
+<div class="col-sm-12">
+<ul class="logo-wrap">
+<li>
+<a href="https://www.ledgerwallet.com/apps/bitcoin">
+<div class="img-wrap">
+<img alt="Ledger Wallet Bitcoin" src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/logo-ledger-wallet-bitcoin.png">
+</div>
+<div class="description">
+<strong class="title">Ledger Wallet Bitcoin</strong>
+<span class="more">Learn more</span>
+</div>
+</a>
+</li>
+<li>
+<a href="https://www.ledgerwallet.com/apps/ethereum">
+<div class="img-wrap">
+<img alt="Ledger Wallet Ethereum" src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/logo-ledger-wallet-ethereum.png">
+</div>
+<div class="description">
+<strong class="title">Ledger Wallet Ethereum</strong>
+<span class="more">Learn more</span>
+</div>
+</a>
+</li>
+<li>
+<a href="https://www.ledgerwallet.com/apps/ripple">
+<div class="img-wrap">
+<img alt="Ledger Wallet Ripple" src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/logo-ledger-wallet-ripple.png">
+</div>
+<div class="description">
+<strong class="title">Ledger Wallet Ripple</strong>
+<span class="more">Learn more</span>
+</div>
+</a>
+</li>
+<li>
+<a href="https://copay.io/">
+<div class="img-wrap">
+<img alt="Copay" height="53" src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/logo-copay.png" width="60">
+</div>
+<div class="description">
+<strong class="title">Copay</strong>
+<span class="more">Learn more</span>
+</div>
+</a>
+</li>
+<li>
+<a href="http://support.ledgerwallet.com/hc/articles/115005161925-How-to-use-Electrum-with-your-Nano-S">
+<div class="img-wrap">
+<img alt="Electrum" height="54" src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/logo-electrum.png" width="60">
+</div>
+<div class="description">
+<strong class="title">Electrum</strong>
+<span class="more">Learn more</span>
+</div>
+</a>
+</li>
+<li>
+<a href="http://support.ledgerwallet.com/hc/articles/115005199449-How-to-use-your-Ledger-on-Android-with-Mycelium">
+<div class="img-wrap">
+<img alt="Mycelium" height="53" src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/logo-mycelium.png" width="60">
+</div>
+<div class="description">
+<strong class="title">Mycelium</strong>
+<span class="more">Learn more</span>
+</div>
+</a>
+</li>
+<li>
+<a href="http://support.ledgerwallet.com/hc/articles/115005200009-How-to-use-MyEtherWallet-with-Ledger">
+<div class="img-wrap">
+<img alt="MyEtherWallet" height="54" src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/logo-mew.png" width="60">
+</div>
+<div class="description">
+<strong class="title">MyEtherWallet</strong>
+<span class="more">Learn more</span>
+</div>
+</a>
+</li>
+<li>
+<a href="https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet">
+<div class="img-wrap">
+<img alt="GreenBits" height="60" src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/logo-greenaddress.png" width="52">
+</div>
+<div class="description">
+<strong class="title">GreenBits</strong>
+<span class="more">Learn more</span>
+</div>
+</a>
+</li>
+<li>
+<a href="http://support.ledgerwallet.com/hc/articles/115005161905-How-to-use-BitGo-with-your-Nano-S">
+<div class="img-wrap">
+<img alt="BitGo" height="60" src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/logo-bitgo.png" width="60">
+</div>
+<div class="description">
+<strong class="title">BitGo</strong>
+<span class="more">Learn more</span>
+</div>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- specifications section of the page -->
+<section class="section-wrap specifications" id="specifications">
+<div class="container">
+<div class="title-wrap">
+<h2>Specifications</h2>
+</div>
+<div class="row">
+<div class="col-sm-4">
+<div class="img-holder">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="/images/products/lns/ledger-nano-s-specs-thread.png" media="(max-width: 767px)">
+  <source srcset="/images/products/lns/ledger-nano-s-specs-thread.png">
+  <!--[if IE 9]></video><![endif]-->
+  <img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/ledger-nano-s-specs-thread.png">
+</picture>
+
+</div>
+</div>
+<div class="col-sm-4">
+<div class="info">
+<h3 class="text-uppercase">Dimension &amp; weight</h3>
+<p>Size: 98mm x 18mm x 9mm.<br>Weight: 16.2g.</p>
+</div>
+<div class="info">
+<h3 class="text-uppercase">Compatibility</h3>
+<p>Windows (7+), Mac (10.9+), Linux or Chrome OS. Requires Google Chrome or Chromium, and one USB port to plug your Ledger Nano S.</p>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="info-wrap">
+<div class="info">
+<h3 class="text-uppercase">Microcontrollers &amp; connector</h3>
+<p>Connector: USB Type Micro-B.<br>Certification level: CC EAL5+.<br>Chips: ST31H320 (secure) + STM32F042.</p>
+</div>
+<div class="info">
+<h3 class="text-uppercase">Materials</h3>
+<p>Brushed stainless steel and Plastic.<br>No&nbsp;batteries&nbsp;required.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+
+
+<!-- footer of the page -->
+<footer id="footer">
+<div class="f1">
+<div class="container">
+<div class="row">
+<div class="col-sm-4">
+<!-- footer logo of the page -->
+<div class="footer-logo">
+<a href="https://www.ledger.fr/"><div class="logo">
+<img alt="Ledger Wallet" height="24" src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/logo-ledger-tiny.png" width="24">
+</div>
+</a><strong class="slogan">
+<a href="https://www.ledger.fr/">Ledger</a>
+</strong>
+</div>
+<!-- copyright of the page -->
+<div class="copyright">
+<p>
+© Copyright
+2018
+<a href="https://www.ledger.fr/">Ledger</a>
+— Paris, Vierzon, San Francisco.
+</p>
+</div>
+<div class="address-wrap">
+<address>
+<p>
+Ledger SAS
+<br>
+1 rue du Mail
+<br>75002 Paris, France<br>
+<a class="tel" href="https://www.ledger.fr/">https://www.ledger.fr</a>
+<br>
+<br>
+</p>
+</address>
+</div>
+</div>
+<div class="col-sm-3 col-sm-offset-1">
+<form action="https://ledgerwallet.us2.list-manage.com/subscribe/post?u=bcc2126fb4bf3e02256d6c188&amp;amp;id=81d7e76d64" class="newsletter-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+<fieldset>
+<h3 class="text-uppercase">Newsletter</h3>
+<p>Sign up to our newsletter to receive updates</p>
+<div class="input-wrap">
+<input id="mail" name="EMAIL" placeholder="Your email address" type="email">
+<button class="btn btn-default" type="submit">
+<i class="fa fa-angle-right"></i>
+</button>
+<div style="position: absolute; left: -5000px;">
+<input name="b_bcc2126fb4bf3e02256d6c188_81d7e76d64" tabindex="-1" type="text" value="">
+</div>
+</div>
+<br>
+<br>
+<br>
+<h3 class="text-uppercase">Language</h3>
+<select class="jcf-ignore select2-hidden-accessible" id="website-language-selector" name="select" tabindex="-1" aria-hidden="true">
+<option class="text-uppercase" value="ar-SA">عربي</option>
+<option class="text-uppercase" value="bn-BD">বাঙালি</option>
+<option class="text-uppercase" value="de-DE">Deutsch</option>
+<option class="text-uppercase" value="el-GR">ελληνικά</option>
+<option class="text-uppercase" selected="" value="en-US">English</option>
+<option class="text-uppercase" value="es-ES">Español</option>
+<option class="text-uppercase" value="fr-FR">Français</option>
+<option class="text-uppercase" value="hi-IN">हिंदी</option>
+<option class="text-uppercase" value="id-ID">Bahasa Indonesia</option>
+<option class="text-uppercase" value="it-IT">Italiano</option>
+<option class="text-uppercase" value="ja-JP">日本語</option>
+<option class="text-uppercase" value="ko-KR">한국말</option>
+<option class="text-uppercase" value="pt-PT">Inglês</option>
+<option class="text-uppercase" value="ru-RU">Русский</option>
+<option class="text-uppercase" value="zh-CN">中国</option>
+<option class="text-uppercase" value="zh-TW">中國</option>
+</select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-website-language-selector-container"><span class="select2-selection__rendered" id="select2-website-language-selector-container" title="English"><span><img src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/us.png" class="img-flag">&nbsp;&nbsp;English</span></span><span class="select2-selection__arrow" role="presentation"><i class="fa fa-angle-down"></i></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+</fieldset>
+</form>
+</div>
+<div class="col-sm-3 col-sm-offset-1">
+<!-- footer nav of the page -->
+<div class="footer-nav-wrap text-uppercase">
+<h3 class="text-uppercase">Site</h3>
+<ul class="footer-nav">
+<li><a href="https://www.ledgerwallet.com/products">Products</a></li>
+<li><a href="https://www.ledgerwallet.com/cryptocurrencies">Cryptocurrencies</a></li>
+<li><a href="https://www.ledgerwallet.com/discover">Videos</a></li>
+<li><a href="https://www.ledgerwallet.com/apps">Apps</a></li>
+<li><a href="https://www.ledgerwallet.com/retailers">Retailers</a></li>
+<li><a href="https://www.ledgerwallet.com/affiliates">Affiliates</a></li>
+<li><a href="http://support.ledgerwallet.com/"><span class="translation_missing" title="translation missing: en-US.widgets.footer.support">Support</span></a></li>
+<li><a href="https://www.ledgerwallet.com/terms">Terms</a></li>
+<li><a href="https://www.ledgerwallet.com/privacy-policy"><span class="translation_missing" title="translation missing: en-US.widgets.footer.privacy">Privacy</span></a></li>
+<li><a href="https://www.ledgerwallet.com/legal">Legal</a></li>
+<li><a href="https://www.ledgerwallet.com/start">Start</a></li>
+</ul>
+</div>
+<div class="footer-nav-wrap text-uppercase">
+<h3 class="text-uppercase">Connect</h3>
+<ul class="footer-nav">
+<li><a href="https://www.ledger.fr/">About</a></li>
+<li><a target="_blank" href="https://www.ledger.fr/category/blog-posts/">Blog</a></li>
+<li><a target="_blank" href="https://github.com/LedgerHQ">GitHub</a></li>
+<li><a target="_blank" href="https://www.facebook.com/LedgerHQ">Facebook</a></li>
+<li><a target="_blank" href="https://www.twitter.com/LedgerHQ">Twitter</a></li>
+<li><a target="_blank" href="https://www.youtube.com/Ledger">YouTube</a></li>
+<li><a href="https://www.ledgerwallet.com/roadmap">Roadmap</a></li>
+<li><a target="_blank" href="http://status.ledger.fr/">Status</a></li>
+<li><a target="_blank" href="http://order.ledgerwallet.com/">Track your order</a></li>
+<li><a target="_blank" href="https://www.ledger.fr/bounty-program/">Bounty program</a></li>
+</ul>
+<script>
+  (function() {
+    var formatState;
+  
+    formatState = function(state) {
+      var flag;
+      if (!state.id) {
+        return state.text;
+      }
+      if (state.element.value === "ar-SA") {
+        flag = "ae";
+      } else if (state.element.value.length >= 5 && state.element.value.indexOf('-') !== -1) {
+        flag = state.element.value.split("-")[1].toLowerCase();
+      } else {
+        flag = state.element.value;
+      }
+      state = $('<span><img src="/images/flags/' + flag + '.png" class="img-flag" />&nbsp;&nbsp;' + state.text + '</span>');
+      return state;
+    };
+  
+    $('footer#footer #website-language-selector').select2({
+      templateResult: formatState,
+      templateSelection: formatState,
+      minimumResultsForSearch: Infinity,
+      width: '100%'
+    });
+  
+    $('footer#footer .select2-selection__arrow').empty().append($('<i class="fa fa-angle-down"></i>'));
+  
+  }).call(this);
+</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+</div>
+<iframe src="javascript:false" title="" style="display: none;" src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/saved_resource.html"></iframe><script>
+  window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var e=this.createElement("script");n&&(this.domain=n),e.id="js-iframe-async",e.src="https://assets.zendesk.com/embeddable_framework/main.js",this.t=+new Date,this.zendeskHost="ledger.zendesk.com",this.zEQueue=a,this.body.appendChild(e)},o.write('<body onload="document._l();">'),o.close()}();
+</script>
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5713203"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5713203&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+
+
+<iframe id="font-resize-frame-911" class="font-resize-helper" style="width: 100em; height: 10px; position: absolute; border-width: 0px; top: -9999px; left: -9999px;" src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/saved_resource(1).html"></iframe><div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon0.9664959136102103"><img style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon0.1167784865421635" width="0" height="0" alt="" src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/0"></div><div><iframe id="launcher" tabindex="0" class="zEWidget-launcher zEWidget-launcher--active" style="border: none; background: transparent; z-index: 999998; transform: translateZ(0px); position: fixed; opacity: 1; width: 112px; height: 47px; margin: 10px 20px; right: 0px; bottom: 0px;" src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/saved_resource(2).html"></iframe></div><div><iframe id="webWidget" tabindex="-1" class="zEWidget-webWidget " style="border: none; background: transparent; z-index: 999999; transform: translateZ(0px); position: fixed; opacity: 0; width: 357px; margin-left: 8px; margin-right: 8px; height: 15px; right: 0px; bottom: 0px; transition-property: none; transition-timing-function: unset; top: -9999px;" src="./Ledger Wallet - Ledger Nano S - Cryptocurrency hardware wallet_files/saved_resource(3).html"></iframe></div></body></html>
