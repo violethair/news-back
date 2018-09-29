@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Post;
 use App\Category;
 use App\Article;
+use App\Setting;
+use App\PressRelease;
 
 class HomeController extends Controller
 {
@@ -24,6 +26,14 @@ class HomeController extends Controller
 	        'pressReleases' => $pressReleases,
 	        'analysis' => $analysis,
 	        'all' => $all
+	       ], 200);
+	}
+
+	public function getSetting () {
+		$data = Setting::first()->toArray();
+		return response([
+	        'status' => 'success',
+	        'data' => $data
 	       ], 200);
 	}
 
@@ -51,11 +61,28 @@ class HomeController extends Controller
 	       ], 200);
 	}
 
+	public function getMorePostInCategory ($category_id,$page) {
+
+		if($category_id == 12) {
+			$all = PressRelease::orderBy('id', 'desc')->skip($page * 10)->take(10)->get()->toArray();
+		} else {
+			$all = Post::where('cat_id', $category_id)->orderBy('id', 'desc')->skip($page * 10)->take(10)->get()->toArray();
+		}
+		
+		return response([
+	        'status' => 'success',
+	        'data' => $all
+	       ], 200);
+	}
+
 	public function getPostInfo ($query) {
 
 		$data = Post::where('link', $query)->first();
 
-		if(empty($data)) return response(['status'=>'error', 'message'=>'Not found'],404);
+		if(empty($data)) {
+			$data = PressRelease::where('link', $query)->first();
+			if(empty($data)) return response(['status'=>'error', 'message'=>'Not found'],404);
+		}
 
 		$data = $this->getPostFullInfo($data);
 
@@ -66,7 +93,28 @@ class HomeController extends Controller
 	        'status' => 'success',
 	        'data' => $data
 	       ], 200);
+	}
 
+	public function getCategoryInfo ($query) {
+
+		if($query == 'press-releases') {
+			$data['id'] = 12;
+			$data['name'] = "Press Release";
+			$data['link'] = 'press-releases';
+			$data['post'] = PressRelease::orderBy('id','desc')->limit(10)->get()->toArray();
+		} else {
+			$data = Category::where('link', $query)->first();
+			if(empty($data)) {
+				return response(['status'=>'error', 'message'=>'Not found'],404);
+			}
+			$data = $data->toArray();
+			$data['post'] = Post::where('cat_id', $data['id'])->orderBy('id','desc')->limit(10)->get()->toArray();
+		}
+
+		return response([
+	        'status' => 'success',
+	        'data' => $data
+	       ], 200);
 	}
 
 	// helper functions
