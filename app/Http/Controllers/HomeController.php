@@ -13,11 +13,11 @@ class HomeController extends Controller
 {
 	public function index () {
 
-		$lastest = Post::orderBy('id', 'desc')->limit(4);
+		$lastest = Post::where('status', 'publish')->orderBy('id', 'desc')->limit(4);
 		$lastest = $this->getPostFullInfo($lastest->get()->toArray());
 		$pressReleases = Article::orderBy('id','desc')->limit(3)->get()->toArray();
-		$analysis = Post::where('cat_id',3)->limit(7)->get()->toArray();
-		$all = Post::orderBy('id', 'desc')->limit(12)->get()->toArray();
+		$analysis = Post::where('status', 'publish')->where('cat_id',3)->limit(7)->get()->toArray();
+		$all = Post::where('status', 'publish')->orderBy('id', 'desc')->limit(12)->get()->toArray();
 		$all = $this->getPostFullInfo($all);
 
 		return response([
@@ -52,7 +52,7 @@ class HomeController extends Controller
 	}
 
 	public function getMorePost($page) {
-		$all = Post::orderBy('id', 'desc')->skip($page * 12)->take(12)->get()->toArray();
+		$all = Post::where('status', 'publish')->orderBy('id', 'desc')->skip($page * 12)->take(12)->get()->toArray();
 		$all = $this->getPostFullInfo($all);
 
 		return response([
@@ -66,7 +66,7 @@ class HomeController extends Controller
 		if($category_id == 12) {
 			$all = PressRelease::orderBy('id', 'desc')->skip($page * 10)->take(10)->get()->toArray();
 		} else {
-			$all = Post::where('cat_id', $category_id)->orderBy('id', 'desc')->skip($page * 10)->take(10)->get()->toArray();
+			$all = Post::where('status', 'publish')->where('cat_id', $category_id)->orderBy('id', 'desc')->skip($page * 10)->take(10)->get()->toArray();
 		}
 		
 		return response([
@@ -77,7 +77,7 @@ class HomeController extends Controller
 
 	public function getPostInfo ($query) {
 
-		$data = Post::where('link', $query)->first();
+		$data = Post::where('status', 'publish')->where('link', $query)->first();
 
 		if(empty($data)) {
 			$data = PressRelease::where('link', $query)->first();
@@ -115,6 +115,28 @@ class HomeController extends Controller
 	        'status' => 'success',
 	        'data' => $data
 	       ], 200);
+	}
+
+	public function uploadAvatar (Request $req) {
+		if ($req->hasFile('image')) {
+            $file = $req->image;
+            $date = date('d-m-Y');
+	        $path = storage_path() . '/app/public/post-thumb/' . $date;
+	        if (!file_exists($path)) {
+			    mkdir($path, 0777, true);
+			}
+			$avatarFileName = str_random(64) . '.' . $file->getClientOriginalExtension();
+	        $file->move($path, $avatarFileName);
+	        return response([
+		        'status' => 'success',
+		        'data' => 'iholding.io/' . $date . '/' . $avatarFileName
+		       ], 200);
+        } else {
+        	return response([
+	        	'status' => 'error',
+	        	'data' => 'Please select file'
+	      	], 500);
+        }
 	}
 
 	// helper functions
