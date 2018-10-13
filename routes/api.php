@@ -20,6 +20,9 @@ Route::get('/getMorePost/{page}', 'HomeController@getMorePost');
 Route::get('/getMorePostInCategory/{category_id}/{page}', 'HomeController@getMorePostInCategory');
 Route::get('/getPostInfo/{query}', 'HomeController@getPostInfo');
 Route::get('/getCategoryInfo/{query}', 'HomeController@getCategoryInfo');
+Route::get('/getTopNew', 'HomeController@getTopNew');
+Route::get('/getVideo', 'HomeController@getVideo');
+Route::get('/getPressReleases', 'HomeController@getPressReleases');
 Route::post('/uploadAvatar', 'HomeController@uploadAvatar');
 
 Route::get('/postThumb/{domain}/{date}/{filename}', function ($domain,$date,$filename) {

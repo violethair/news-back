@@ -8,6 +8,7 @@ use App\Category;
 use App\Article;
 use App\Setting;
 use App\PressRelease;
+use App\Video;
 
 class HomeController extends Controller
 {
@@ -16,7 +17,7 @@ class HomeController extends Controller
 		$lastest = Post::where('status', 'publish')->orderBy('id', 'desc')->limit(4);
 		$lastest = $this->getPostFullInfo($lastest->get()->toArray());
 		$pressReleases = Article::orderBy('id','desc')->limit(3)->get()->toArray();
-		$analysis = Post::where('status', 'publish')->where('cat_id',3)->limit(7)->get()->toArray();
+		$analysis = Post::where('status', 'publish')->where('cat_id',3)->orderBy('id', 'desc')->limit(7)->get()->toArray();
 		$all = Post::where('status', 'publish')->orderBy('id', 'desc')->limit(12)->get()->toArray();
 		$all = $this->getPostFullInfo($all);
 
@@ -84,6 +85,10 @@ class HomeController extends Controller
 			if(empty($data)) return response(['status'=>'error', 'message'=>'Not found'],404);
 		}
 
+		// + view
+		$data->view++;
+		$data->save();
+
 		$data = $this->getPostFullInfo($data);
 
 		$data['content'] = preg_replace('/(https:\/\/img.iholding.io)\/(.*)fill\!(.*)/', env('APP_URL') . '/postThumb/${3}', $data['content']);
@@ -111,6 +116,18 @@ class HomeController extends Controller
 			$data['post'] = Post::where('cat_id', $data['id'])->orderBy('id','desc')->limit(10)->get()->toArray();
 		}
 
+		if(!empty($data['parent_id'])) {
+			$data['parent'] = Category::find($data['parent_id']);
+		}
+
+		return response([
+	        'status' => 'success',
+	        'data' => $data
+	       ], 200);
+	}
+
+	public function getTopNew () {
+		$data = Post::where('view', '!=', 0)->orderBy('view', 'desc')->limit(5)->get()->toArray();
 		return response([
 	        'status' => 'success',
 	        'data' => $data
@@ -139,6 +156,22 @@ class HomeController extends Controller
         }
 	}
 
+	public function getVideo () {
+		$data = Video::orderBy('id', 'desc')->limit(20)->get()->toArray();
+		return response([
+	        'status' => 'success',
+	        'data' => $data
+	       ], 200);
+	}
+
+	public function getPressReleases () {
+		$data = Article::orderBy('id', 'desc')->limit(5)->get()->toArray();
+		return response([
+	        'status' => 'success',
+	        'data' => $data
+	       ], 200);
+	}
+
 	// helper functions
 	public function getPostFullInfo ($data) {
 		if(is_array($data)) {
@@ -155,7 +188,7 @@ class HomeController extends Controller
 				$count=0;
 				foreach($arr as $key=>$value) {
 					if($key == 5) break;
-					$abcda = Post::select(['name','images','link','publish_at'])->where('id',$value)->first()->toArray();
+					$abcda = Post::select(['name','images','link','shortdes','publish_at'])->where('id',$value)->first()->toArray();
 					$temp[$count] = $abcda;
 					$count++;
 				}
